@@ -5,8 +5,8 @@ edition = "2021"
 
 [dependencies]
 anyhow = "1.0.68"
+prost-derive = "0.13.1"
 thiserror = "1.0.38"
-vodozemac = { version = "0.7.0" }
 
 [profile.dev]
 debug = 0
