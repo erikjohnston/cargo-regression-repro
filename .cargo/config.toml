@@ -1,0 +1,9 @@
+target-applies-to-host = false
+
+[target.'cfg(not(any(tarpaulin, target_os = "android", target_os = "ios")))']
+rustflags = [
+    "-Wrust_2018_idioms",
+]
+
+[unstable]
+target-applies-to-host = true
